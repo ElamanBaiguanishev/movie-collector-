@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Парсер фильмов</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+</head>
+<body>
+    <div class="container">
+        <h1 class="mt-4">Список фильмов</h1>
+        <button id="load-movies" class="btn btn-primary mb-3">Загрузить фильмы</button>
+        <table class="table">
+            <thead>
+                <tr>
+                    <th>Название</th>
+                    <th>Режиссер</th>
+                    <th>Год</th>
+                    <th>Жанр</th>
+                    <th>Рейтинг</th>
+                </tr>
+            </thead>
+            <tbody id="movie-table-body">
+                <!-- Данные будут добавляться здесь с помощью jQuery -->
+            </tbody>
+        </table>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
